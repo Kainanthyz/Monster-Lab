@@ -603,6 +603,15 @@ progress {
   content: "— ";
 }
 
+.img-hover{
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.img-hover:hover{
+  width: 45px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -681,6 +690,11 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
+.d-row{
+  display: flex;
+}
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -693,6 +707,8 @@ progress {
 .col {
   flex: 1 0 0%;
 }
+
+
 
 .row-cols-auto > * {
   flex: 0 0 auto;
@@ -6119,6 +6135,19 @@ nav{
   content: "";
 }
 
+.text-format{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 2em 2em 0 2em;
+  transition: 0.4s;
+}
+
+.text-format:hover{
+  color: #bcbebf;
+}
+
 .text-bg-primary {
   color: #fff !important;
   background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
@@ -6723,6 +6752,10 @@ nav{
 
 .w-25 {
   width: 25% !important;
+}
+
+.w-15 {
+  width: 15% !important;
 }
 
 .w-50 {
