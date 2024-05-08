@@ -4286,6 +4286,10 @@ nav{
   border-radius: var(--bs-list-group-border-radius);
 }
 
+section{
+  background-color: #fff;
+}
+
 .list-group-numbered {
   list-style-type: none;
   counter-reset: section;
