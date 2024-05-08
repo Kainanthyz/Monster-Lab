@@ -4717,6 +4717,11 @@ section{
   word-wrap: break-word;
 }
 
+@font-face {
+  font-family: Acetona;
+  src: url(../Outros/acetone/ACETONE.woff);
+}
+
 .modal {
   --bs-modal-zindex: 1055;
   --bs-modal-width: 500px;
