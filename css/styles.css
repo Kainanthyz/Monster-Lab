@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 /*!
 * Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
@@ -86,6 +87,14 @@
   :root {
     scroll-behavior: smooth;
   }
+}
+
+#houver-nav{
+  margin-bottom: 55px;
+}
+
+.inter{
+  font: 16px "Inter", sans-serif;
 }
 
 .carousel-inner img {
@@ -603,6 +612,15 @@ progress {
   content: "— ";
 }
 
+.img-hover{
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.img-hover:hover{
+  width: 45px;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -681,6 +699,11 @@ progress {
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
+.d-row{
+  display: flex;
+}
+
 .row > * {
   flex-shrink: 0;
   width: 100%;
@@ -693,6 +716,8 @@ progress {
 .col {
   flex: 1 0 0%;
 }
+
+
 
 .row-cols-auto > * {
   flex: 0 0 auto;
@@ -1743,6 +1768,15 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
+.div-section-title{
+  padding: 2% 10%;
+}
+
+.section-title{
+  font-size: 3rem;
+}
+
 .table {
   --bs-table-color: var(--bs-body-color);
   --bs-table-bg: transparent;
@@ -2528,6 +2562,12 @@ textarea.form-control-lg {
   z-index: 5;
 }
 
+.btn-modify{
+  width: 250px;
+  height: 60px;
+  border-radius: 100px;
+}
+
 .input-group-text {
   display: flex;
   align-items: center;
@@ -2983,6 +3023,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: #212529;
   --bs-btn-disabled-border-color: #212529;
+}
+
+.btn-black {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #424649;
+  --bs-btn-hover-border-color: #373b3e;
+  --bs-btn-focus-shadow-rgb: 66, 70, 73;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #4d5154;
+  --bs-btn-active-border-color: #373b3e;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #000000;
+  --bs-btn-disabled-border-color: #000000;
 }
 
 .btn-outline-primary {
@@ -4270,6 +4327,10 @@ nav{
   border-radius: var(--bs-list-group-border-radius);
 }
 
+section{
+  background-color: #fff;
+}
+
 .list-group-numbered {
   list-style-type: none;
   counter-reset: section;
@@ -4695,6 +4756,11 @@ nav{
 .toast-body {
   padding: var(--bs-toast-padding-x);
   word-wrap: break-word;
+}
+
+@font-face {
+  font-family: Acetona;
+  src: url(../Outros/acetone/ACETONE.woff);
 }
 
 .modal {
@@ -6119,6 +6185,19 @@ nav{
   content: "";
 }
 
+.text-format{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 2em 2em 0 2em;
+  transition: 0.4s;
+}
+
+.text-format:hover{
+  color: #bcbebf;
+}
+
 .text-bg-primary {
   color: #fff !important;
   background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
@@ -6127,6 +6206,11 @@ nav{
 .text-bg-secondary {
   color: #fff !important;
   background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
+}
+
+.btn-banner{
+  bottom: 150px;
+  right: 550px;
 }
 
 .text-bg-success {
@@ -6371,6 +6455,15 @@ nav{
   left: 0;
   z-index: 1;
   content: "";
+}
+
+.new-price{
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+
+.old-price{
+  font-size: 12px !important;
 }
 
 .text-truncate {
@@ -6723,6 +6816,10 @@ nav{
 
 .w-25 {
   width: 25% !important;
+}
+
+.w-15 {
+  width: 15% !important;
 }
 
 .w-50 {
