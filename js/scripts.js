@@ -12,7 +12,7 @@ function HideandShow(i){
   } else {
     x.style.display = "none";
   }
-}
+};
 
 function changeImage(i2) {
     var y = document.getElementById(i2);
@@ -21,4 +21,4 @@ function changeImage(i2) {
     } else {
         y.src = "../img/Setas/down-arrow.png";
     }
-}
+};
