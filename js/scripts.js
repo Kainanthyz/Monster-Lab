@@ -5,8 +5,9 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
 function HideandShow(i){
-    var x = document.getElementById(i);
+    var x = document.getElementById(i)
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -14,11 +15,27 @@ function HideandShow(i){
   }
 };
 
+var imgDownArrow = "../img/Setas/down-arrow.png";
+var imgRightArrow = "../img/Setas/right-arrow.png";
+
+function changeImage(i2) {
+    document.getElementById(i2).src = imgRightArrow;
+    let m = imgRightArrow;
+    imgRightArrow = imgDownArrow;
+    imgDownArrow = m;
+};
+
+
+/*
+
 function changeImage(i2) {
     var y = document.getElementById(i2);
     if (y.src == "../img/Setas/down-arrow.png"){
+      alert("ATÉ AQUI TA TUDO BEM");
         y.src = "../img/Setas/right-arrow.png";
     } else {
         y.src = "../img/Setas/down-arrow.png";
     }
 };
+
+*/

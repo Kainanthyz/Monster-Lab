@@ -2562,10 +2562,28 @@ textarea.form-control-lg {
   z-index: 5;
 }
 
+
 .btn-modify{
   width: 250px;
-  height: 60px;
+  height: 80px;
   border-radius: 100px;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: right;
+  padding: 0 30px;
+  transition: 0.4s;
+}
+
+.btn-modify:hover{
+  filter: contrast(0.7);
+}
+
+.btn-modify img{
+  width: 50px;
+  margin-right: 12px;
 }
 
 .input-group-text {
