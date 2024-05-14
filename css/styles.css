@@ -43,6 +43,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-white-smoke-rgb: #e7dedc;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -132,6 +133,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.teste{
+  border: 2px solid blue;
 }
 
 h1, .h1 {
@@ -5312,6 +5317,15 @@ section{
   border-left-color: var(--bs-popover-bg);
 }
 
+.f-size{
+  font-size: 12px;
+}
+
+.t-align{
+  vertical-align: center;
+  text-align: center;
+}
+
 /* rtl:end:ignore */
 .popover-header {
   padding: var(--bs-popover-header-padding-y) var(--bs-popover-header-padding-x);
@@ -7663,6 +7677,11 @@ section{
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-white-smoke {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-smoke-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -7702,6 +7721,12 @@ section{
 
 .text-opacity-100 {
   --bs-text-opacity: 1;
+}
+
+.hr{
+  width: 100%;
+  height: 1px;
+  background-color: #adb5bd;
 }
 
 .bg-primary {
