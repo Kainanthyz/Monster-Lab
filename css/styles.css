@@ -619,11 +619,29 @@ progress {
 
 .img-hover{
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .img-hover:hover{
-  width: 45px;
+  transform: scale(1.1);
+}
+
+.transform-scale-0{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.transform-scale-0:hover{
+  transform: scale(1.1);
+}
+
+.transform-scale-1{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.transform-scale-1:hover{
+  transform: scale(1.25)
 }
 
 .img-fluid {
@@ -6872,6 +6890,10 @@ section{
 
 .mw-100 {
   max-width: 100% !important;
+}
+
+.mw-50 {
+  max-width: 50% !important;
 }
 
 .vw-100 {
