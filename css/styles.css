@@ -2586,28 +2586,6 @@ textarea.form-control-lg {
 }
 
 
-.btn-modify{
-  width: 250px;
-  height: 80px;
-  border-radius: 100px;
-  border: 0;
-  background-color: #000;
-  color: #fff;
-  font-size: 22px;
-  font-weight: 500;
-  text-align: right;
-  padding: 0 30px;
-  transition: 0.4s;
-}
-
-.btn-modify:hover{
-  filter: contrast(0.7);
-}
-
-.btn-modify img{
-  width: 50px;
-  margin-right: 12px;
-}
 
 .input-group-text {
   display: flex;
@@ -6258,9 +6236,113 @@ section{
   background-color: RGBA(108, 117, 125, var(--bs-bg-opacity, 1)) !important;
 }
 
-.btn-banner{
-  bottom: 150px;
-  right: 550px;
+@media (max-width: 667px) {
+  .btn-modify{
+    width: 149px;
+    height: 40px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 9px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0 30px;
+    transition: 0.4s;
+  }
+
+  .btn-modify img{
+    width: 30px;
+    margin-right: 8px;
+  }
+
+  .btn-banner{
+    bottom: 70px;
+    right: 30%;
+  }
+}
+
+@media (min-width: 668px){
+  .btn-modify{
+    width: 195px;
+    height: 60px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0 30px;
+    transition: 0.4s;
+  }
+
+  .btn-modify img{
+    width: 40px;
+    margin-right: 12px;
+  }
+
+  .btn-banner{
+    bottom: 110px;
+    right: 32%;
+  }
+}
+
+@media (min-width: 900px ) {
+  .btn-modify{
+    width: 250px;
+    height: 80px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0 30px;
+    transition: 0.4s;
+  }
+
+  .btn-modify img{
+    width: 50px;
+    margin-right: 12px;
+  }
+
+  .btn-banner{
+    bottom: 150px;
+    right: 35%;
+  }
+}
+
+
+@media (min-width: 1400px ) {
+  .btn-modify{
+    width: 300px;
+    height: 90px;
+    border-radius: 100px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: right;
+    padding: 0 30px;
+    transition: 0.4s;
+  }
+
+  .btn-modify img{
+    width: 60px;
+    margin-right: 12px;
+  }
+
+  .btn-banner{
+    bottom: 190px;
+    right: 35%;
+  }
+}
+
+.btn-modify:hover{
+  filter: contrast(0.7);
 }
 
 .text-bg-success {
