@@ -5354,6 +5354,18 @@ section{
   touch-action: pan-y;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
+.animation-size{
+  transition: 0.2s all linear;
+}
+
+.animation-size:hover{
+  transform: scale(1.25);
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
@@ -8519,6 +8531,10 @@ section{
   }
   .text-sm-center {
     text-align: center !important;
+  }
+
+  .text-sm-justify {
+    text-align: justify !important;
   }
 }
 @media (min-width: 768px) {
