@@ -1796,12 +1796,29 @@ progress {
   }
 }
 
+@media screen {
+  
+}
+
 .div-section-title{
   padding: 2% 10%;
 }
 
-.section-title{
-  font-size: 3rem;
+@media (max-width: 801px) {
+  .section-title{
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 801px) {
+  .section-title{
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 961px) {
+  .section-title{
+    font-size: 3rem;
+  }
 }
 
 .table {
@@ -3722,6 +3739,26 @@ nav{
   border: var(--bs-card-border-width) solid var(--bs-card-border-color);
   border-radius: var(--bs-card-border-radius);
 }
+
+.card-partnership{
+  width: 350px;
+  height: 622px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.5);
+}
+
+.card-title-partnership{
+  position: absolute;
+  left: 55px;
+  bottom: 20px;
+  color: whitesmoke;
+  font-size: 36px !important;
+}
+
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -6973,6 +7010,10 @@ section{
 
 .w-50 {
   width: 50% !important;
+}
+
+.w-60 {
+  width: 60% !important;
 }
 
 .w-75 {
